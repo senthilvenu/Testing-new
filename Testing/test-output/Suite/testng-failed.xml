@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Googlesearch" value="Type"/>
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="Creditcard"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testing.Testing">
+        <methods>
+          <include name="Creditcard" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testing.Testing -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
