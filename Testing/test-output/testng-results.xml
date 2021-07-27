@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21724" started-at="2018-01-13T07:16:25Z" finished-at="2018-01-13T07:16:47Z">
+  <suite name="Default suite" duration-ms="133" started-at="2021-07-27T20:22:02Z" finished-at="2021-07-27T20:22:02Z">
     <groups>
-      <group name="Creditcard">
-        <method signature="Testing.Creditcard(java.lang.String)[pri:0, instance:Testing.Testing@4ca8195f]" name="Creditcard" class="Testing.Testing"/>
-      </group> <!-- Creditcard -->
-      <group name="login">
-        <method signature="Testing.login()[pri:0, instance:Testing.Testing@4ca8195f]" name="login" class="Testing.Testing"/>
-      </group> <!-- login -->
     </groups>
-    <test name="Test" duration-ms="21724" started-at="2018-01-13T07:16:25Z" finished-at="2018-01-13T07:16:47Z">
-      <class name="Testing.Testing">
-        <test-method status="PASS" signature="login()[pri:0, instance:Testing.Testing@4ca8195f]" name="login" duration-ms="15" started-at="2018-01-13T01:16:25Z" finished-at="2018-01-13T01:16:25Z">
+    <test name="Default test" duration-ms="133" started-at="2021-07-27T20:22:02Z" finished-at="2021-07-27T20:22:02Z">
+      <class name="Testing.TestingSample">
+        <test-method status="PASS" signature="ATestConsuerloan()[pri:0, instance:Testing.TestingSample@4b1c1ea0]" name="ATestConsuerloan" duration-ms="29" started-at="2021-07-27T16:22:02Z" finished-at="2021-07-27T16:22:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="Creditcard(java.lang.String)[pri:0, instance:Testing.Testing@4ca8195f]" name="Creditcard" duration-ms="21693" started-at="2018-01-13T01:16:25Z" finished-at="2018-01-13T01:16:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testing]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- ATestConsuerloan -->
+        <test-method status="PASS" signature="BTestCreditcard()[pri:0, instance:Testing.TestingSample@4b1c1ea0]" name="BTestCreditcard" duration-ms="8" started-at="2021-07-27T16:22:02Z" finished-at="2021-07-27T16:22:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Creditcard -->
-      </class> <!-- Testing.Testing -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- BTestCreditcard -->
+        <test-method status="PASS" signature="STestDeposit()[pri:0, instance:Testing.TestingSample@4b1c1ea0]" name="STestDeposit" duration-ms="7" started-at="2021-07-27T16:22:02Z" finished-at="2021-07-27T16:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- STestDeposit -->
+        <test-method status="PASS" signature="Testlogin()[pri:0, instance:Testing.TestingSample@4b1c1ea0]" name="Testlogin" duration-ms="3" started-at="2021-07-27T16:22:02Z" finished-at="2021-07-27T16:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testlogin -->
+      </class> <!-- Testing.TestingSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
